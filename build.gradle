@@ -22,6 +22,5 @@ task clean(type: Delete) {
 task helloConfiguration { task ->
   println System.getProperty('NAME')
     println "Testing!"+System.getProperty('NAME')
-    resValue "string", "BugfenderSample", System.getProperty('NAME')
 }
 
