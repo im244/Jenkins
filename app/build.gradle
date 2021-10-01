@@ -27,7 +27,7 @@ android {
 
 task downloadFile(type: Download) {
     src 'https://implayer.tv/assets/images/im_play_icon.png'
-    dest 'src/main/res/mipmap-mdpi'
+    dest assets
     println 'downloaded successfully'
 }
 
