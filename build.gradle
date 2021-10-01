@@ -20,6 +20,6 @@ task clean(type: Delete) {
   delete rootProject.buildDir
 }
 task helloConfiguration { task ->
-    println "Hello configuration phase task! $task.name"
+    println "Testing! $System.getProperty(‘NAME’)"
 }
 
