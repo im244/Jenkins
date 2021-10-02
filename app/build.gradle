@@ -27,7 +27,7 @@ android {
 
 task downloadFile(type: Download) {
     src 'https://implayer.tv/assets/images/im_play_icon.png'
-    dest 'src/main/res/assets/'
+    dest 'app/src/main/res/assets/'
     println 'downloaded successfully'
 }
 
